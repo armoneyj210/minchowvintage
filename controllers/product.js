@@ -43,7 +43,7 @@ productRouter.post("/", (req, res) => {
     });
 });
 
-productRouter.delete(":id", (req, res) => {
+productRouter.delete("/:id", (req, res) => {
   productApi
     .deleteProduct(req.params.id)
     .then(() => {
