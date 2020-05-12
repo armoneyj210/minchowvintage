@@ -11,7 +11,7 @@ const getPhotos = () => {
   return photoCollection.find({});
 };
 
-const getPhotosById = (id) => {
+const getPhotoById = (id) => {
   return photoCollection.findById(id);
 };
 
@@ -28,7 +28,7 @@ const updatePhoto = (id, updatedPhoto) => {
 };
 module.exports = {
   getPhotos,
-  getPhotosById,
+  getPhotoById,
   createPhoto,
   deletePhoto,
   updatePhoto,
