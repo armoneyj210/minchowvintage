@@ -18,7 +18,7 @@ const getPhotosById = (id) => {
 const createPhoto = (photoObject) => {
   return photoCollection.create(photoObject);
 };
-P;
+
 const deletePhoto = (id) => {
   return photoCollection.deleteOne({ _id: id });
 };
