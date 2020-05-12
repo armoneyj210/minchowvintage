@@ -14,7 +14,7 @@ const getProducts = () => {
   return productCollection.find({});
 };
 
-const getProductsById = (id) => {
+const getProductById = (id) => {
   return productCollection.findById(id);
 };
 
@@ -31,7 +31,7 @@ const updateProduct = (id, updatedProduct) => {
 };
 module.exports = {
   getProducts,
-  getProductsById,
+  getProductById,
   createProduct,
   deleteProduct,
   updateProduct,
