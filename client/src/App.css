@@ -2,7 +2,58 @@
   text-align: center;
 }
 
-.App-logo {
+body {
+  background: url(https://vintagemotortees.com/wp-content/uploads/2016/02/Tim-Hart-1-1024x673.jpg)
+    fixed no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 4em;
+}
+.home-logo {
+  width: 9em;
+  height: 5em;
+  border: none;
+}
+.navbar {
+  display: flex;
+  height: 100%;
+  justify-content: right;
+  align-items: right;
+  list-style-type: none;
+}
+.nav-container {
+  width: 100%;
+  font-family: "DM Mono", monospace;
+  font-size: 1.15em;
+  display: flex;
+  height: 3em;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background: #050505;
+  padding: 0 12px 0 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 10px 5px 5px antiquewhite;
+}
+.navbar-item {
+  padding: 1em;
+  text-decoration: none;
+  margin-right: 1em;
+  color: antiquewhite;
+}
+.navbar-company {
+  font-size: 3em;
+  padding-bottom: -3em;
+  margin-bottom: 0.5em;
+}
+a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-weight: 700;
+}
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
@@ -30,4 +81,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
