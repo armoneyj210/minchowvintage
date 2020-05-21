@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
-import Gallery from "./components/Gallery";
+import Photos from "./components/Photos";
 import About from "./components/About";
 import SinglePhoto from "./components/SinglePhoto";
 import Products from "./components/Products";
@@ -17,7 +17,7 @@ function App() {
           <NavBar />
         </div>
         <Switch>
-          <Route exact path="/photo" component={Gallery} />
+          <Route exact path="/photo" component={Photos} />
           <Route exact path="/about" component={About} />
           <Route exact path="/product" component={Products} />
           <Route exact path="/photo/:photoId" component={SinglePhoto} />
