@@ -30,7 +30,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  background: #050505;
+  background: #101010;
   padding: 0 12px 0 0;
   position: fixed;
   top: 0;
@@ -44,15 +44,47 @@ body {
   color: antiquewhite;
 }
 .navbar-company {
-  font-size: 3em;
-  padding-bottom: -3em;
-  margin-bottom: 0.5em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: -1em;
+  font-size: 2.75em;
+  /* text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000; */
 }
 a {
   text-decoration: none;
   color: antiquewhite;
   font-weight: 700;
 }
+.placeholder {
+  width: 100%;
+  height: 100%;
+  margin: 39.65%;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .navbar,
+  .navbar-company {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar {
+    padding: 100% 60% 0 8.5em;
+  }
+  .navbar-company {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12% 0 0 15em;
+  }
+}
+
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;

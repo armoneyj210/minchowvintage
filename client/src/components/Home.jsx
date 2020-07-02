@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-
+import Footer from "./Footer";
 export default class Home extends Component {
   render() {
-    return <div></div>;
+    return <div className="placeholder"></div>;
   }
 }

@@ -20,12 +20,14 @@ export default class NavBar extends Component {
           </li>
           ||
           <li className="navbar-item">
-            <a href="/product">Items</a>
+            <a href="/product">Services</a>
+          </li>
+          <li>
+            <a href="/">
+              <h1 className="navbar-item navbar-company ">Most MotorSports</h1>
+            </a>
           </li>
         </ul>
-        <a href="/">
-          <h1 className="navbar-item navbar-company">Minchow Dirt Bikes</h1>
-        </a>
       </div>
     );
   }

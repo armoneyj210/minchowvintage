@@ -8,6 +8,7 @@ import SinglePhoto from "./components/SinglePhoto";
 import Products from "./components/Products";
 import SingleProduct from "./components/SingleProduct";
 import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" component={Home} />
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }
