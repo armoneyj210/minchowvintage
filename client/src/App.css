@@ -57,6 +57,10 @@ a {
   color: antiquewhite;
   font-weight: 700;
 }
+.services-item-rest {
+  float: left;
+}
+
 .placeholder {
   width: 100%;
   height: 100%;
