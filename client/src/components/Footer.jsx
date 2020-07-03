@@ -21,11 +21,11 @@ export default class Footer extends Component {
 
               <a href="#">Pricing</a>
 
-              <a href="#">About</a>
+              <a href="/about">About</a>
 
               <a href="#">Faq</a>
 
-              <a href="#">Contact</a>
+              <a href="/contact">Contact</a>
             </p>
 
             <p> Most Motor Sports &copy; 2015</p>

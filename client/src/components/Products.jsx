@@ -5,7 +5,7 @@ export default class Products extends Component {
     return (
       <div className="services">
         <div className="services-title">
-          <h1>
+          <h1 className="services-header">
             {" "}
             <u> Services</u>
           </h1>
@@ -29,25 +29,26 @@ export default class Products extends Component {
               cylinders.
             </p>
           </div>
-          <div className="service-item">
+          <div className="services-item">
             <h2>Engine Rebuild</h2>
             <h3>4 Stroke Single Cylinder + Cylinder</h3>
             <h4>$425 + parts</h4>
           </div>
-          <div className="service-item">
+          <div className="services-item">
             <h2>Suspension Rebuild</h2>
             <h3>Front</h3>
             <h4>$125 + parts</h4>
             <h3>Rear</h3>
             <h4>$125 + parts</h4>
           </div>
-          <div className="service-item-rest">
+          <div className="service-item-rest services-item">
             <p>
               {" "}
               <span id="services-vintage-rest">
                 {" "}
                 Vintage Dirt Bike Restoration
               </span>
+              <br />
               are welcome and we would love to talk with you about the
               restoration job before quoting you anything.
             </p>
@@ -57,7 +58,7 @@ export default class Products extends Component {
               start talking ideas, time frame i.e.
             </p>
           </div>
-          <div className="services-item-talk">
+          <div className="services-item-talk services-item">
             <h3>
               A whole lot depends on both Harley Custom Builds and Vintage Dirt
               Bike Restorations.

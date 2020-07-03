@@ -71,6 +71,30 @@ a {
 .services-item-rest {
   float: left;
 }
+.services-header {
+  padding: 5%;
+}
+#services-vintage-rest {
+  font-size: 1.25em;
+  text-align: center;
+}
+.services-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.services-item {
+  width: 100%;
+  align-items: center;
+  margin: 0 15% 1%;
+  box-shadow: 5px 2.5px 2.5px antiquewhite;
+  border-radius: 5px;
+  border: 1px solid #010101;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 10%, #d3d3d3 100%);
+}
 .about {
   display: flex;
   flex-direction: row;
