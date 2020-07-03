@@ -3,9 +3,12 @@ import React, { Component } from "react";
 export default class Products extends Component {
   render() {
     return (
-      <div>
+      <div className="services">
         <div className="services-title">
-          <h1>Services</h1>
+          <h1>
+            {" "}
+            <u> Services</u>
+          </h1>
         </div>
         <div className="services-flex-container">
           <div className="services-item">
