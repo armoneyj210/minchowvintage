@@ -19,8 +19,6 @@ export default class Footer extends Component {
                 Home
               </a>
 
-              <a href="#">Pricing</a>
-
               <a href="/about">About</a>
 
               <a href="#">Faq</a>
@@ -28,7 +26,7 @@ export default class Footer extends Component {
               <a href="/contact">Contact</a>
             </p>
 
-            <p> Most Motor Sports &copy; 2015</p>
+            <p> Most MotorSports &copy; 2015</p>
           </div>
         </footer>
       </div>

@@ -15,6 +15,10 @@ export default class Home extends Component {
         <div className="home-flex-item">
           <h5>Suspension</h5>
         </div>
+        ||
+        <div className="home-flex-item">
+          <h3 className="home-vegas">Las Vegas, Nevada</h3>
+        </div>
         <div className="home-flex-btn-cont">
           <a href="/photo">
             <button className="home-flex-btn">Come on in!</button>

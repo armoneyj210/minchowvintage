@@ -49,8 +49,9 @@ export default class Products extends Component {
                 Vintage Dirt Bike Restoration
               </span>
               <br />
-              are welcome and we would love to talk with you about the
-              restoration job before quoting you anything.
+              <br />
+              Vintage dirt bikes are welcome and we would love to talk with you
+              about the restoration job before quoting you anything.
             </p>
             <p>
               <span className="services-harley">Harley Custom Builds</span>are
@@ -68,7 +69,7 @@ export default class Products extends Component {
               <li>Are we picking up the bike?</li>
               <li>Are we delivering the bike?</li>
               <li>Are we rebuilding the engine?</li>
-              <li>WHat performance mods are wanted?</li>
+              <li>What performance mods are wanted?</li>
             </ul>
             <p>
               These are just some of the basic questions we'd like to get out of
