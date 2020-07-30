@@ -4,12 +4,6 @@ export default class NavBar extends Component {
   render() {
     return (
       <div className="nav-container">
-        {/* <div className="home-logo">
-          <a href="/">
-            <img className="home-logo" src={Logo} alt="logo" />
-          </a>
-        </div> */}
-
         <ul className="navbar">
           <li className="navbar-item">
             <a href="/about">About</a>
@@ -31,4 +25,11 @@ export default class NavBar extends Component {
       </div>
     );
   }
+}
+{
+  /* <div className="home-logo">
+          <a href="/">
+            <img className="home-logo" src={Logo} alt="logo" />
+          </a>
+        </div> */
 }
