@@ -8,11 +8,11 @@ export default class NavBar extends Component {
           <li className="navbar-item">
             <a href="/about">About</a>
           </li>
-          ||
+
           <li className="navbar-item">
             <a href="/photo">Gallery</a>
           </li>
-          ||
+
           <li className="navbar-item">
             <a href="/product">Services</a>
           </li>

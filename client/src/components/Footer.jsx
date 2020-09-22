@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../Footer.css";
+
 import ReactDOM from "react-dom";
 import { FaFacebookSquare } from "react-icons/fa";
 export default class Footer extends Component {
@@ -15,17 +16,19 @@ export default class Footer extends Component {
 
           <div class="footer-left">
             <p class="footer-links">
-              <a class="link-1" href="#">
+              <a class="link-1" href="/">
                 Home
               </a>
 
               <a href="/about">About</a>
 
-              <a href="#">Faq</a>
+              <a href="/tips">Tips</a>
 
-              <a href="/contact">Contact</a>
+              <a href=" mailto: wendyminchow@cox.net ">Contact</a>
             </p>
-
+            <p>
+              <a href="/terms">Terms of Service</a>
+            </p>
             <p> Most MotorSports &copy; 2015</p>
           </div>
         </footer>

@@ -9,7 +9,8 @@ import Products from "./components/Products";
 import SingleProduct from "./components/SingleProduct";
 import "./App.css";
 import Footer from "./components/Footer";
-
+import Term from "./components/Terms";
+import Tips from "./components/Tips";
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,8 @@ function App() {
           <Route exact path="/product" component={Products} />
           <Route exact path="/photo/:photoId" component={SinglePhoto} />
           <Route exact path="/product/:productId" component={SingleProduct} />
+          <Route exact path="/terms" component={Term} />
+          <Route exact path="/tips" component={Tips} />
           <Route path="/" component={Home} />
         </Switch>
       </Router>
