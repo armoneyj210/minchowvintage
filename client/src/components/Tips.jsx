@@ -4,7 +4,9 @@ export default class Tips extends Component {
   render() {
     return (
       <div className="tips-text">
-        <h2>Important Shipping Tips</h2>
+        <h2>
+          <u> Important Shipping Tips</u>
+        </h2>
         <h4>
           Before boxing up your carburetors be sure to drain every drop of fuel.
           The last thing you want to do is to cause a fire.
