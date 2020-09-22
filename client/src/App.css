@@ -274,6 +274,12 @@ a {
   .terms-text {
     font-size: 1em;
   }
+  body {
+    background: url(https://vintagemotortees.com/wp-content/uploads/2016/02/Tim-Hart-1-1024x673.jpg)
+      fixed repeat;
+
+    /* background-size: cover; */
+  }
 }
 @media (max-width: 600px) {
   /* .navbar,

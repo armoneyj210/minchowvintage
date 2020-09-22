@@ -73,23 +73,25 @@ export default class Products extends Component {
             <h4>Remove old paint</h4>
             <h5>25$ per carb</h5>
             <p>This process will include:</p>
-            <ul>
-              <li>Total disassembly of all components</li>
-              <li>
-                Full internal/external cleaning(Media Blast all applicable
-                components)
-              </li>
-              <li>Ultra Sonic Clean all components</li>
-              <li>
-                Reassemble the carburetors, replace all worn or irregular jets,
-                diaphragms, o'rings, gaskets, etc.
-              </li>
-              <li>Reset Float Levels</li>
-              <li>
-                All replacement parts used are OEM replacement, or manufactured
-                by the carburetor company.
-              </li>
-            </ul>
+
+            <p> Total disassembly of all components</p>
+
+            <p>
+              Full internal/external cleaning(Media Blast all applicable
+              components)
+            </p>
+            <p>Ultra Sonic Clean all components</p>
+
+            <p>
+              Reassemble the carburetors, replace all worn or irregular jets,
+              diaphragms, o'rings, gaskets, etc.
+            </p>
+            <p>Reset Float Levels</p>
+
+            <p>
+              All replacement parts used are OEM replacement, or manufactured by
+              the carburetor company.
+            </p>
           </div>
           <div className="services-item-talk services-item">
             <h3>
