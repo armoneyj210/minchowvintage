@@ -59,6 +59,38 @@ export default class Products extends Component {
               start talking ideas, time frame i.e.
             </p>
           </div>
+          <div className="services-item">
+            <h2>Carburetors</h2>
+            <h3>All prices are "off the bike"</h3>
+            <h4>1 carb</h4>
+            <h5>65$ + parts</h5>
+            <h4>2 carbs</h4>
+            <h5>125$ + parts</h5>
+            <h4>3 carbs</h4>
+            <h5>225$ + parts</h5>
+            <h4>4 carbs</h4>
+            <h5>300$ + parts</h5>
+            <h4>Remove old paint</h4>
+            <h5>25$ per carb</h5>
+            <p>This process will include:</p>
+            <ul>
+              <li>Total disassembly of all components</li>
+              <li>
+                Full internal/external cleaning(Media Blast all applicable
+                components)
+              </li>
+              <li>Ultra Sonic Clean all components</li>
+              <li>
+                Reassemble the carburetors, replace all worn or irregular jets,
+                diaphragms, o'rings, gaskets, etc.
+              </li>
+              <li>Reset Float Levels</li>
+              <li>
+                All replacement parts used are OEM replacement, or manufactured
+                by the carburetor company.
+              </li>
+            </ul>
+          </div>
           <div className="services-item-talk services-item">
             <h3>
               A whole lot depends on both Harley Custom Builds and Vintage Dirt
