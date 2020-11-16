@@ -94,7 +94,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color: antiquewhite;
+  /* color: antiquewhite; */
   font-weight: 700;
 }
 .tips-text,
@@ -224,8 +224,53 @@ a {
   margin-left: 15em;
 }
 
+.service-box-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-box-item {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 2em;
+  padding: 2em;
+  font-size: 1.5em;
+  text-shadow: -1px -1px 0 antiquewhite, 1px -1px 0 antiquewhite,
+    -1px 1px 0 antiquewhite, 1px 1px 0 antiquewhite;
+  align-content: center;
+  box-shadow: 5px 2.5px 2.5px antiquewhite;
+  border-radius: 5px;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 10%, #d3d3d3 100%);
+}
+.atv {
+  padding: 3em;
+}
+.service-box-item a {
+  color: antiquewhite;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.service-groups {
+  color: antiquewhite;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
 /* Media Queries */
+@media (max-width: 1024px) {
+  .home-head {
+    margin: 0;
+  }
+}
 @media screen and (max-width: 600px) {
+  .atv {
+    padding: 3em;
+  }
   .topnav.responsive {
     position: relative;
   }
@@ -274,6 +319,7 @@ a {
   .terms-text {
     font-size: 1em;
   }
+
   body {
     background: url(https://vintagemotortees.com/wp-content/uploads/2016/02/Tim-Hart-1-1024x673.jpg)
       fixed repeat;

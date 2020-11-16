@@ -5,7 +5,7 @@ export default class Home extends Component {
     return (
       <div className="home-flex-container">
         <div className="home-flex-item home-font-up">
-          <h1 className="home-vintage">Vintage Dirt Bike Restoration</h1>
+          <h1 className="home-vintage">All Modern and Vintage Restoration</h1>
         </div>
         ||
         <div className="home-flex-item home-font-up">
@@ -13,8 +13,10 @@ export default class Home extends Component {
         </div>
         ||
         <div className="home-flex-item">
-          <h5>Suspension</h5>||
-          <h5>Carburetors</h5>
+          <h3>Engines</h3>
+          <h3>Suspension</h3>
+          <h3>Carburetors</h3>
+          <h3>EFI Fuel Injections</h3>
         </div>
         ||
         <div className="home-flex-item">

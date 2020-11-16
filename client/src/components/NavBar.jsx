@@ -9,7 +9,7 @@ export default class NavBar extends Component {
         </a>
         <a href="/about">About</a>
         <a href="/photo">Gallery</a>
-        <a href="/product">Services</a>{" "}
+        <a href="/services">Services</a>{" "}
         <a href="/">
           {" "}
           <span className="home-head">Most MotorSports</span>

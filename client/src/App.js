@@ -11,6 +11,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Term from "./components/Terms";
 import Tips from "./components/Tips";
+import Services from "./components/Services";
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/product/:productId" component={SingleProduct} />
           <Route exact path="/terms" component={Term} />
           <Route exact path="/tips" component={Tips} />
+          <Route exact path="/services" component={Services} />
           <Route path="/" component={Home} />
         </Switch>
       </Router>
