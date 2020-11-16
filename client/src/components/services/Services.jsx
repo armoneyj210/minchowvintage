@@ -12,19 +12,19 @@ export default class Services extends Component {
         </div>
         <div className="service-box-container">
           <div className="service-box-item">
-            <a href="#">
+            <a href="/street-services">
               {" "}
               <h1>Street</h1>
             </a>
           </div>
           <div className="service-box-item">
-            <a href="#">
+            <a href="/dirt-services">
               {" "}
               <h1>Dirt Bike</h1>
             </a>
           </div>
           <div className="service-box-item">
-            <a href="#">
+            <a href="/sidebyside-services">
               {" "}
               <h1>Side By Side</h1>
             </a>
@@ -36,10 +36,13 @@ export default class Services extends Component {
             </a>
           </div>
           <div className="service-box-item atv">
-            <a href="/atvservices">
+            <a href="/atv-services">
               <h1> ATV</h1>
             </a>
           </div>{" "}
+          <div className="service-box-item">
+            <p>Track days are available for tuning Road and Dirt bikes!</p>{" "}
+          </div>
         </div>
       </div>
     );

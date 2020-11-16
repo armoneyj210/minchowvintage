@@ -7,6 +7,7 @@ export default class Tips extends Component {
         <h2>
           <u> Important Shipping Tips</u>
         </h2>
+        <h4>Please Call before shipping engines or suspension</h4>
         <h4>
           Before boxing up your carburetors be sure to drain every drop of fuel.
           The last thing you want to do is to cause a fire.

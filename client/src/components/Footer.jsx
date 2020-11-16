@@ -24,7 +24,7 @@ export default class Footer extends Component {
 
               <a href="/tips">Tips</a>
 
-              <a href=" mailto: wendyminchow@cox.net ">Contact</a>
+              <a href=" /contact">Contact</a>
             </p>
             <p>
               <a href="/terms">Terms of Service</a>

@@ -11,7 +11,12 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Term from "./components/Terms";
 import Tips from "./components/Tips";
-import Services from "./components/Services";
+import Services from "./components/services/Services";
+import Contact from "./components/Contact";
+import Atv from "./components/services/Atv";
+import Street from "./components/services/Street";
+import Sbs from "./components/services/Sbs";
+import Dirt from "./components/services/Dirt";
 function App() {
   return (
     <div className="App">
@@ -28,6 +33,11 @@ function App() {
           <Route exact path="/terms" component={Term} />
           <Route exact path="/tips" component={Tips} />
           <Route exact path="/services" component={Services} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/atv-services" component={Atv} />
+          <Route exact path="/street-services" component={Street} />
+          <Route exact path="/sidebyside-services" component={Sbs} />
+          <Route exact path="/dirt-services" component={Dirt} />
           <Route path="/" component={Home} />
         </Switch>
       </Router>
