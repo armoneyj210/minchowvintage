@@ -31,7 +31,7 @@ export default class Products extends Component {
           </div>
           <div className="services-item">
             <h2>Engine Rebuild</h2>
-            <h3>4 Stroke Single Cylinder + Cylinder</h3>
+            <h3>4 Stroke Single Cylinder </h3>
             <h4>$425 + parts</h4>
           </div>
           <div className="services-item">
