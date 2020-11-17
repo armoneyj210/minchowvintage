@@ -17,6 +17,8 @@ import Atv from "./components/services/Atv";
 import Street from "./components/services/Street";
 import Sbs from "./components/services/Sbs";
 import Dirt from "./components/services/Dirt";
+import Sale from "./components/services/Sale";
+import SingleSale from "./components/services/SingleSale";
 function App() {
   return (
     <div className="App">
@@ -38,6 +40,8 @@ function App() {
           <Route exact path="/street-services" component={Street} />
           <Route exact path="/sidebyside-services" component={Sbs} />
           <Route exact path="/dirt-services" component={Dirt} />
+          <Route exact path="/sale" component={Sale} />
+          <Route exact path="/single-sale" component={SingleSale} />
           <Route path="/" component={Home} />
         </Switch>
       </Router>

@@ -30,7 +30,7 @@ export default class Services extends Component {
             </a>
           </div>
           <div className="service-box-item">
-            <a href="#">
+            <a href="/sale">
               {" "}
               <h1>For Sale</h1>
             </a>

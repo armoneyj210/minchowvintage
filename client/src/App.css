@@ -262,25 +262,48 @@ p {
 }
 .service-groups,
 .contact-head,
-.contact-item {
+.contact-item,
+.product-header {
   color: antiquewhite;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
 .contact-page {
   width: 100%;
-  height: 100vmin;
 }
 .contact-container {
   margin: 1.25em;
   display: flex;
-  flex-direction: row;
-  justify-items: center;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-content: flex-start;
 }
 .contact-item {
+  font-size: 1.25em;
+  align-items: center;
+  align-content: center;
   padding: 5%;
-  margin: 5%;
+  margin: 4%;
+}
+.talon-img {
+  box-shadow: 5px 2.5px 2.5px antiquewhite;
+  border-radius: 5px;
+  width: 50%;
+}
+.add-submit {
+  margin-bottom: 30%;
+  margin-top: 10%;
+}
+.product-button {
+  opacity: 0;
+}
+.product-img {
+  box-shadow: 5px 2.5px 2.5px antiquewhite;
+  border-radius: 5px;
+}
+.product-header {
+  padding: 30em;
 }
 /* Media Queries */
 @media (max-width: 1024px) {
@@ -289,6 +312,13 @@ p {
   }
 }
 @media screen and (max-width: 600px) {
+  .contact-item img {
+    width: 75%;
+  }
+  .contact-item {
+    margin: auto;
+    height: max-content;
+  }
   .atv {
     padding: 3em;
   }
