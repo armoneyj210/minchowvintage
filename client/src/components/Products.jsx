@@ -33,6 +33,8 @@ export default class Products extends Component {
             <h2>Engine Rebuild</h2>
             <h3>4 Stroke Single Cylinder </h3>
             <h4>$425 + parts</h4>
+            <h3>2 Stroke</h3>
+            <h4>325$ + parts</h4>
           </div>
           <div className="services-item">
             <h2>Suspension Rebuild</h2>
