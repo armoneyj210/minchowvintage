@@ -97,8 +97,7 @@ export default class Products extends Component {
           </div>
           <div className="services-item-talk services-item">
             <h3>
-              A whole lot depends on both Harley Custom Builds and Vintage Dirt
-              Bike Restorations.
+              A whole lot depends on  Harley Custom Builds. 
             </h3>
             <ul>
               <li>Are we providing the bike?</li>

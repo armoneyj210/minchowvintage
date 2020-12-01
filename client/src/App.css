@@ -125,6 +125,9 @@ a {
 }
 .services-header {
   padding: 5%;
+  color: antiquewhite;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 #services-vintage-rest {
   font-size: 1.25em;
@@ -139,7 +142,9 @@ a {
 }
 .services-item {
   width: 100%;
-
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  color: antiquewhite;
   align-items: center;
   margin: 0 15% 1%;
   box-shadow: 5px 2.5px 2.5px antiquewhite;
