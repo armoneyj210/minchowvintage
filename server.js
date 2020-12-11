@@ -55,7 +55,7 @@ app.get("/*", (req, res) => {
  *
  * NOTE: keep these lines at the bottom of the file
  */
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 5000;
 
 /* Step 7
  *
