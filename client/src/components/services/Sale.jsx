@@ -58,13 +58,10 @@ export default class Sale extends Component {
               <h3>{product.name}</h3>
             </div>
 
-            <Link to={`/product/${product._id}`}>
-              <img
-                className="product-img"
-                src={product.img}
-                alt={product.name}
-              />
-            </Link>
+            <img className="product-img" src={product.img} alt={product.name} />
+
+            <h3>{product.price}</h3>
+            <h3>{product.description}</h3>
           </div>
         </div>
       );
