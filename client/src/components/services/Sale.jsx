@@ -73,7 +73,7 @@ export default class Sale extends Component {
     });
     return (
       <div>
-        <h1 className="product-header">Products</h1>
+        <h1 className="product-header">For Sale</h1>
         <div className="product-button">
           <button onClick={this.handleToggleNewForm}>Add New Product</button>
         </div>
