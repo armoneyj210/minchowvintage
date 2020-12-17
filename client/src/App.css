@@ -302,9 +302,13 @@ p {
 .product-button {
   /* opacity: 0; */
 }
+.product-list {
+  margin: 0 5% 0 5%;
+}
 .product-img {
   box-shadow: 5px 2.5px 2.5px antiquewhite;
   border-radius: 5px;
+  width: 35%;
 }
 
 /* Media Queries */

@@ -60,8 +60,10 @@ export default class Sale extends Component {
 
             <img className="product-img" src={product.img} alt={product.name} />
 
-            <h3>{product.price}</h3>
-            <h3>{product.description}</h3>
+            <div className="product-list">
+              <h3>{product.price}</h3>
+              <h3>{product.description}</h3>
+            </div>
           </div>
         </div>
       );
