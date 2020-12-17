@@ -308,7 +308,7 @@ p {
 .product-img {
   box-shadow: 5px 2.5px 2.5px antiquewhite;
   border-radius: 5px;
-  width: 35%;
+  width: 50%;
 }
 
 /* Media Queries */
