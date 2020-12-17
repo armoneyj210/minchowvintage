@@ -10,7 +10,8 @@ const mongoose = require("mongoose");
  *
  */
 const connectionString =
-  process.env.MONGODB_URI || "mongodb://localhost/vintage";
+  process.env.ATLAS_URI ||
+  "mongodb+srv://olswamptrash:Kombucha_12@cluster0.c8r4l.mongodb.net/<dbname>?retryWrites=true&w=majority";
 
 /* Step 2
  *
