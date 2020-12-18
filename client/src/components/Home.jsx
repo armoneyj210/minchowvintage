@@ -18,7 +18,7 @@ export default class Home extends Component {
         <div className="home-flex-item">
           <h3>Engines</h3>
           <h3>Suspension</h3>
-          <h3>Carburetors</h3>h oh
+          <h3>Carburetors</h3>
           <h3>EFI Fuel Injections</h3>
         </div>
         ||
