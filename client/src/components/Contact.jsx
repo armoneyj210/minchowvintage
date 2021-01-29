@@ -21,9 +21,9 @@ export default class Contact extends Component {
 
             <h3>
               Email:{" "}
-              <a href="mailto: mostmotorsports@cox.net">
+              <a href="mailto: mostmotorsports@gmail.com">
                 {" "}
-                wendyminchow@cox.net
+                mostmotorsports@gmail.com
               </a>
             </h3>
           </div>

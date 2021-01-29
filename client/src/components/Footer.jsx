@@ -25,6 +25,8 @@ export default class Footer extends Component {
               <a href="/tips">Tips</a>
 
               <a href=" /contact">Contact</a>
+              <p>(702)-449-2077</p>
+              <p>mostmotorsports@gmail.com</p>
             </p>
             <p>
               <a href="/terms">Terms of Service</a>
